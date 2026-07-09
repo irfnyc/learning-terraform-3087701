@@ -3,7 +3,7 @@ data "aws_ami" "app_ami" {
 
   filter {
     name   = "name"
-    values = ["bitnami-tomcat-*-x86_64-hvm-ebs-nami"]
+    values = ["aws-elasticbeanstalk-amzn-*.64bit_arm-eb_tomcat11corretto25_amazon_linux_2023-hvm-*"]
   }
 
   filter {
